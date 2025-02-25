@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "67bab8a1cea70a561a472da0"
+  },
+  "productTypeId": {
+    "_id": {
+      "$oid": "67ba888bc26b32faadde968e"
+    }
+  },
+  "status": "active",
+  "productSubType": "Personal"
+},
+{
+  "_id": {
+    "$oid": "67bab8a5cea70a561a472da1"
+  },
+  "productTypeId": {
+    "_id": {
+      "$oid": "67ba888bc26b32faadde968e"
+    }
+  },
+  "status": "active",
+  "productSubType": "Empresarial"
+},
+{
+  "_id": {
+    "$oid": "67bab8b2cea70a561a472da2"
+  },
+  "productTypeId": {
+    "_id": {
+      "$oid": "67ba888bc26b32faadde968e"
+    }
+  },
+  "status": "active",
+  "productSubType": "Tarjeta de Credito Personal"
+},
+{
+  "_id": {
+    "$oid": "67bab8b8cea70a561a472da3"
+  },
+  "productTypeId": {
+    "_id": {
+      "$oid": "67ba888bc26b32faadde968e"
+    }
+  },
+  "status": "active",
+  "productSubType": "Tarjeta de Credito Empresarial"
+}]

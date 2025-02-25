@@ -1,0 +1,480 @@
+{
+	"info": {
+		"_postman_id": "14d71a13-9e1f-4c71-97b2-a18e4a619091",
+		"name": "Bootcamp BC59",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42215252"
+	},
+	"item": [
+		{
+			"name": "Customers",
+			"item": [
+				{
+					"name": "GetAllCustomers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/api/customers",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllCustomers Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/api/customers/description",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"customers",
+								"description"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCustomerById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/customers/67b8d824fb8b3a1b36d19af1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"customers",
+								"67b8d824fb8b3a1b36d19af1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Customer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Pedro\",\r\n    \"lastName\" : \"Garcia\",\r\n    \"email\" : \"pedrog360@gmail.com\",\r\n    \"documentNumber\" : \"26371921\",\r\n    \"customerType\" : {\r\n        \"id\" : \"67b8d815c26b32faadde966d\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/api/customers",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"customers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCustomerByType",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/api/customers/description",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"customers",
+								"description"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCustomerByType Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/api/customers/type/67b4197e1589f6c8db7928c5",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"customers",
+								"type",
+								"67b4197e1589f6c8db7928c5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Get All Passive Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8083/api/products/passive",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"api",
+								"products",
+								"passive"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All Active Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8083/api/products/active",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"api",
+								"products",
+								"active"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Passive Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productType\" : {\r\n        \"id\" : \"67ba887bc26b32faadde968d\"\r\n    },\r\n    \"status\" : \"active\",\r\n    \"productSubType\" : \"plazo fijo\",\r\n    \"monthlyTransactionLimit\" : 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8083/api/products/passive",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"api",
+								"products",
+								"passive"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Active Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productType\" : {\r\n        \"id\" : \"67ba888bc26b32faadde968e\"\r\n    },\r\n    \"status\" : \"active\",\r\n    \"productSubType\" : \"Tarjeta de Credito Empresarial\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8083/api/products/active",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"api",
+								"products",
+								"active"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8083/api/products/passive/67bab33f5bdb603f3932e971",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"api",
+								"products",
+								"passive",
+								"67bab33f5bdb603f3932e971"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllProducts Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\" : \"pasivo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8083/api/product/type",
+							"host": [
+								"localhost"
+							],
+							"port": "8083",
+							"path": [
+								"api",
+								"product",
+								"type"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Accounts",
+			"item": [
+				{
+					"name": "Query",
+					"item": [
+						{
+							"name": "GetAccountByIdCustomerId",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8082/api/accounts/queries/67bbb068d8c02b1d8ac16b0d/customer/67b8d824fb8b3a1b36d19af1/information",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"api",
+										"accounts",
+										"queries",
+										"67bbb068d8c02b1d8ac16b0d",
+										"customer",
+										"67b8d824fb8b3a1b36d19af1",
+										"information"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Command",
+					"item": [
+						{
+							"name": "Deposit",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customerId\" : \"67b8d824fb8b3a1b36d19af1\",\r\n    \"balance\" : 200.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/api/accounts/67bbb068d8c02b1d8ac16b0d/balance",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"api",
+										"accounts",
+										"67bbb068d8c02b1d8ac16b0d",
+										"balance"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Insert Passive Account",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\" : \"67b8d824fb8b3a1b36d19af1\",\r\n    \"productType\" : \"67bab33f5bdb603f3932e971\",\r\n    \"accountNumber\" : \"1234591282103123132\",\r\n    \"accountCreationDate\" : \"2024-01-25T10:30:00\",\r\n    \"accountStatus\" : \"Active\",\r\n    \"accountBalance\" : 100.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8082/api/accounts/passive-account",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"api",
+								"accounts",
+								"passive-account"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Active Account",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\" : \"67b8d824fb8b3a1b36d19af1\",\r\n    \"productType\" : \"67bab33f5bdb603f3932e971\",\r\n    \"accountNumber\" : \"1234591282103123132\",\r\n    \"accountCreationDate\" : \"2024-01-25T10:30:00\",\r\n    \"accountStatus\" : \"Active\",\r\n    \"accountBalance\" : 100.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8082/api/accounts/active-account",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"api",
+								"accounts",
+								"active-account"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transfers",
+			"item": [
+				{
+					"name": "Deposit",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountId\" : \"67bbb068d8c02b1d8ac16b0d\",\r\n    \"customerId\" : \"67b8d824fb8b3a1b36d19af1\",\r\n    \"amount\" : 600.00,\r\n    \"description\" : \"DEPOSIT\",\r\n    \"channel\" : \"WEBAPP\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8084/api/transfers/withdraw",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"transfers",
+								"withdraw"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAccountByIdCustomerId Copy",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8084/api/transfers/account/67bbb068d8c02b1d8ac16b0d/movements",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"api",
+								"transfers",
+								"account",
+								"67bbb068d8c02b1d8ac16b0d",
+								"movements"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

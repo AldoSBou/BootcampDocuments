@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "67bab33f5bdb603f3932e971"
+  },
+  "productTypeId": {
+    "_id": {
+      "$oid": "67ba887bc26b32faadde968d"
+    }
+  },
+  "status": "active",
+  "productSubType": "ahorros",
+  "monthlyTransactionLimit": 5
+},
+{
+  "_id": {
+    "$oid": "67bab3645bdb603f3932e972"
+  },
+  "productTypeId": {
+    "_id": {
+      "$oid": "67ba887bc26b32faadde968d"
+    }
+  },
+  "status": "active",
+  "productSubType": "cuenta corriente",
+  "maintenanceFee": "7.50"
+},
+{
+  "_id": {
+    "$oid": "67bab3855bdb603f3932e973"
+  },
+  "productTypeId": {
+    "_id": {
+      "$oid": "67ba887bc26b32faadde968d"
+    }
+  },
+  "status": "active",
+  "productSubType": "plazo fijo",
+  "monthlyTransactionLimit": 1
+}]

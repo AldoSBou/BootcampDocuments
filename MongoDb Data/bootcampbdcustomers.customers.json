@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "67b8d824fb8b3a1b36d19af1"
+  },
+  "customerType": {
+    "_id": {
+      "$oid": "67b8d7e9c26b32faadde966c"
+    }
+  },
+  "_class": "com.bootcamp.btmscustomers.model.Customer",
+  "documentNumber": "75756547",
+  "email": "aldops360@gmail.com",
+  "name": "Aldo",
+  "lastName": "Suarez"
+},
+{
+  "_id": {
+    "$oid": "67b8d836fb8b3a1b36d19af2"
+  },
+  "customerType": {
+    "_id": {
+      "$oid": "67b8d815c26b32faadde966d"
+    }
+  },
+  "_class": "com.bootcamp.btmscustomers.model.Customer",
+  "documentNumber": "48578997",
+  "email": "aldops360@gmail.com",
+  "name": "Alessandra",
+  "lastName": "Muñoz"
+},
+{
+  "_id": {
+    "$oid": "67ba6f5f15a5c627720b27ee"
+  },
+  "name": "Pedro",
+  "lastName": "Garcia",
+  "email": "pedrog360@gmail.com",
+  "documentNumber": "26371921",
+  "customerType": {
+    "_id": {
+      "$oid": "67b8d815c26b32faadde966d"
+    }
+  }
+}]

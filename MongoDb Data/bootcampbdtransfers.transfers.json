@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "67bd10f45aecfd206b3ec97e"
+  },
+  "accountId": "67bbb068d8c02b1d8ac16b0d",
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "movementType": "DEPOSIT",
+  "amount": "500.00",
+  "movementDate": {
+    "$date": "2025-02-25T00:38:12.265Z"
+  },
+  "channel": "WEB APP"
+},
+{
+  "_id": {
+    "$oid": "67bd19e5770ef14f75c7d7bd"
+  },
+  "accountId": "67bbb068d8c02b1d8ac16b0d",
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "movementType": "DEPOSIT",
+  "amount": "500.00",
+  "movementDate": {
+    "$date": "2025-02-25T01:14:51.537Z"
+  },
+  "channel": "WEB APP"
+},
+{
+  "_id": {
+    "$oid": "67bd4b38a729372dd129c928"
+  },
+  "accountId": "67bbb068d8c02b1d8ac16b0d",
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "movementType": "DEPOSIT",
+  "amount": "50.00",
+  "movementDate": {
+    "$date": "2025-02-25T04:46:02.739Z"
+  },
+  "channel": "WEB APP"
+},
+{
+  "_id": {
+    "$oid": "67bd4b70a729372dd129c929"
+  },
+  "accountId": "67bbb068d8c02b1d8ac16b0d",
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "movementType": "DEPOSIT",
+  "amount": "50.00",
+  "movementDate": {
+    "$date": "2025-02-25T04:47:16.965Z"
+  },
+  "channel": "WEB APP"
+},
+{
+  "_id": {
+    "$oid": "67bd4b7fa729372dd129c92a"
+  },
+  "accountId": "67bbb068d8c02b1d8ac16b0d",
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "movementType": "DEPOSIT",
+  "amount": "50.00",
+  "movementDate": {
+    "$date": "2025-02-25T04:47:51.749Z"
+  },
+  "channel": "WEB APP"
+},
+{
+  "_id": {
+    "$oid": "67bd4d5fda3e105f1a9f9a6e"
+  },
+  "accountId": "67bbb068d8c02b1d8ac16b0d",
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "movementType": "WITHDRAW",
+  "amount": "-600.00",
+  "movementDate": {
+    "$date": "2025-02-25T04:55:43.430Z"
+  },
+  "channel": "WEB APP"
+}]

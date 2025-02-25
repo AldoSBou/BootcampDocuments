@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "67bbb068d8c02b1d8ac16b0d"
+  },
+  "productId": "67bab33f5bdb603f3932e971",
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "accountNumber": "1234591282103123132",
+  "accountCreationDate": {
+    "$date": "2024-01-25T05:00:00.000Z"
+  },
+  "accountStatus": "Active",
+  "accountBalance": "550.00"
+},
+{
+  "_id": {
+    "$oid": "67bbb474bc34347871c28459"
+  },
+  "customerId": "67ba6f5f15a5c627720b27ee",
+  "accountCreationDate": {
+    "$date": "2024-01-25T05:00:00.000Z"
+  },
+  "accountStatus": "Active",
+  "accountBalance": "100.00",
+  "productId": "67bab3645bdb603f3932e972",
+  "accountNumber": "1234591282103123132"
+},
+{
+  "_id": {
+    "$oid": "67bbd2b1e8c69b53d409b9f6"
+  },
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "accountCreationDate": {
+    "$date": "2024-01-25T05:00:00.000Z"
+  },
+  "accountStatus": "Active",
+  "accountBalance": "100.00",
+  "productId": "67bab33f5bdb603f3932e971",
+  "accountNumber": "1234591282103123132"
+},
+{
+  "_id": {
+    "$oid": "67bbd2bce8c69b53d409b9f7"
+  },
+  "customerId": "67b8d824fb8b3a1b36d19af1",
+  "accountCreationDate": {
+    "$date": "2024-01-25T05:00:00.000Z"
+  },
+  "accountStatus": "Active",
+  "accountBalance": "100.00",
+  "productId": "67bab33f5bdb603f3932e971",
+  "accountNumber": "1234591282103123132"
+}]
