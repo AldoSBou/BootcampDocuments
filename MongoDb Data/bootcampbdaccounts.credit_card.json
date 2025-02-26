@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "67be541e11a6565a619655d7"
+  },
+  "cardNumber": "JsonNullable[XXXXXXXXXXXXXXXX1234]",
+  "expiryDate": "JsonNullable[2024-12-30]",
+  "cvv": "548",
+  "cardType": "JsonNullable[Visa]"
+},
+{
+  "_id": {
+    "$oid": "67be6e449fa2303babe92354"
+  },
+  "cardNumber": "XXXXXXXXXXXXXXXX1234",
+  "expiryDate": "2024-12-30",
+  "cvv": "548",
+  "cardType": "Visa"
+}]

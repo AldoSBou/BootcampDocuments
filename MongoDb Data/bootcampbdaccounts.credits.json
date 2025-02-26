@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "67be542f11a6565a619655d8"
+  },
+  "productId": "67bab8b2cea70a561a472da2",
+  "creationDate": {
+    "$date": "2025-02-25T05:00:00.000Z"
+  },
+  "status": "ACTIVE",
+  "customerId": "67b8d836fb8b3a1b36d19af2",
+  "creditLimit": "1500.00",
+  "availableCredit": "1500.00",
+  "creditSubType": "LOAN - CREDIT",
+  "idCreditCard": "67be541e11a6565a619655d7"
+},
+{
+  "_id": {
+    "$oid": "67be6e449fa2303babe92355"
+  },
+  "productId": "67bab8b2cea70a561a472da2",
+  "creationDate": {
+    "$date": "2025-02-25T05:00:00.000Z"
+  },
+  "status": "ACTIVE",
+  "customerId": "67b8d836fb8b3a1b36d19af2",
+  "creditLimit": 1500,
+  "availableCredit": 1500,
+  "creditSubType": "LOAN - CREDIT",
+  "idCreditCard": "67be6e449fa2303babe92354"
+}]
