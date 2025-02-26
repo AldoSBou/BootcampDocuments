@@ -329,7 +329,7 @@
 					"name": "Command",
 					"item": [
 						{
-							"name": "Deposit",
+							"name": "Deposit Copy",
 							"request": {
 								"method": "POST",
 								"header": [],
@@ -353,6 +353,40 @@
 										"accounts",
 										"67bbb068d8c02b1d8ac16b0d",
 										"balance"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Credit and CreditCard",
+					"item": [
+						{
+							"name": "Deposit",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productId\" : \"67bab8b2cea70a561a472da2\",\r\n    \"customerId\": \"67b8d836fb8b3a1b36d19af2\",\r\n    \"creditLimit\" : 1500.00,\r\n    \"cardNumber\" : \"XXXXXXXXXXXXXXXX1234\",\r\n    \"expiryDate\" : \"2024-12-30\",\r\n    \"cardType\" : \"Visa\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:8082/api/accounts/credit-card",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"api",
+										"accounts",
+										"credit-card"
 									]
 								}
 							},
